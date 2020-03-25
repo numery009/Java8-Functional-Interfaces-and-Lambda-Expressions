@@ -57,7 +57,7 @@
         printLambda(s-> s.length());
       }
       
-      public static void printLambda(StringLengthLambda){
+      public static void printLambda(StringLengthLambda l){
         system.Out.println(l.getLength("Hello Lambda"));
       }
       
