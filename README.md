@@ -30,7 +30,9 @@
         }
       </td>     
       <td>
-        Lambda
+        public void great(action){
+          action();
+        }
       </td>
    <tr>
 </table>
