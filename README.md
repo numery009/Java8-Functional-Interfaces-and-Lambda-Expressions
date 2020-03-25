@@ -37,7 +37,7 @@
    <tr>
      <tr>
       <td>
-         We are passing a class whihc has a method that has to perform.
+         We are passing a class which has a method that has to perform.
       </td>     
       <td>
         we are passing the action and execute it.
