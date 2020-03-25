@@ -97,3 +97,6 @@
       interface StringLengthLambda{
         int getLength(String);
       }
+
+## Functional Interface
+   In Java8 we can implement method in the interface. If any method has only one abstract method that's call functional        interface. Functional Interface is a type of interface which we can use for Lambda Type. In Java8 we have special type of    marking which is functional interface. That is @FunctionalInterface annotation. @FunctionalInterface is completely          optional. Java compiler does not require it for your Lambda Types. But it is good practice to add it. It convey the          message that how this interface should be use.
