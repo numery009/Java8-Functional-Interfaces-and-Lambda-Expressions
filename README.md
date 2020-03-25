@@ -21,6 +21,18 @@
       <td>
         Lambda
       </td>
+   <tr>     
+   <tr>
+      <td>
+         Greater Class{
+          public void great(---){
+        
+          }
+        }
+      </td>     
+      <td>
+        Lambda
+      </td>
    <tr>
 </table>
 
