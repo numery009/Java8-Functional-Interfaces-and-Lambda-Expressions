@@ -132,3 +132,4 @@
     interface Process{
       void process(int i);
     }
+Frozen value of b will go where the Lambda will go. This is called closures.
