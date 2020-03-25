@@ -49,8 +49,8 @@
 
   Inline values -> 
   
-  String name = "foo";
-  double pi = 3.14;
+    String name = "foo";
+    double pi = 3.14;
   
     aBlockofCode={
       ......
