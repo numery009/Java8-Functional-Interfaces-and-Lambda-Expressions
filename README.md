@@ -50,3 +50,17 @@
      
 ## Lambda as Interface Type 
    We have to use one interface for one method. We can not use multiple method in one interface.
+   
+   ### Type Interface
+      
+      Public static void mina(String[] args){
+        printLambda(s-> s.length());
+      }
+      
+      public static void printLambda(StringLengthLambda){
+        system.Out.println(l.getLength("Hello Lambda"));
+      }
+      
+      interface StringLengthLambda{
+        int getLength(String);
+      }
