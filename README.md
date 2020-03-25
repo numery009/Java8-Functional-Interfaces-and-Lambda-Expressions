@@ -47,3 +47,6 @@
                                return a/b;
                               }  
      5) StringLenghtCountFunction =(String a) -> a.length();
+     
+## Lambda as Interface Type 
+   We have to use one interface for one method. We can not use multiple method in one interface.
