@@ -148,3 +148,13 @@
     Java8 has introduce the internal iteration which is forEach() method
        people.forEach(p -> system.out.println(p));
        people.forEach(system.out::println);
+
+## Introduction To Streams
+
+  A sequence of elements supporting sequential and parallel aggregate operations. In Java8 there is a new method Stream()     with all object. It basically streams a collection and on a stream it's basically perform multiple operation. And Each       operation has a chance to modify the stream. In Java8 stream is basically 3 different elements.
+  
+  1) Source: Which provides the elements (i.e.- collections)
+  
+  2) Operations: All the operation that needs to perform. These operations only take lambda expression.
+  
+  3) Terminal Operation: End condition which is ask stream to act. Unless the end condition stream has been even get              started.
