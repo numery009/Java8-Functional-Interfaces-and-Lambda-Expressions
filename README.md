@@ -29,3 +29,10 @@
     aBlockofCode=public void perform(){
        system.out.println("Hello World");      
     }
+  
+  This can possible in Java8 by using Lambda expression. We do not need to access modifier, return type and name of the       method in the Lambda. So, the expression of upper method is ->
+  
+     aBlockofCode=()-> {
+                      System.Out.println("Hello World!");
+                        }
+  
