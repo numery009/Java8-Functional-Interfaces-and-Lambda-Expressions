@@ -11,6 +11,18 @@
 
   1) Everything is an object.
   2) All code blocks are associated with classes and objects.
+  
+
+<table>
+   <tr>
+      <td>
+        OOP
+      </td>     
+      <td>
+        Lambda
+      </td>
+   <tr>
+</table>
 
 ## Function as Values in Lambda
 
