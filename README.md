@@ -24,9 +24,8 @@
    <tr>     
    <tr>
       <td>
-         Greater Class{
+          Greater Class{
           public void great(---){
-        
           }
         }
       </td>     
