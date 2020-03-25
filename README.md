@@ -40,9 +40,10 @@
      1) aBlockofCode=()-> System.Out.println("Hello World!");
      
      
-     2) Double Number Function : (int a) -> a*2;
-     3) Add function : (int a, in b) -> a+b;
-     4) Safe Divide Function= (int a, int b) ->{
+     2) DoubleNumberFunction = (int a) -> a*2;
+     3) Addfunction = (int a, in b) -> a+b;
+     4) SafeDivideFunction= (int a, int b) ->{
                                if(b==0) return 0;
                                return a/b;
                               }  
+     5) StringLenghtCountFunction =(String a) -> a.length();
