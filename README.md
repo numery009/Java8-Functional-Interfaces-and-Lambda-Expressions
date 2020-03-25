@@ -112,3 +112,23 @@
    Note: If we find any interface in the package java.util.function which has the same method signature then we do not need    to write new interface we can use that.
    
    Predicate<T>, Consumer<T> these are the Function Interface out of the box.
+
+## Exception Handling in Lambda
+   Easiest way to handle the error in Lambda is wrap a lambda with another Lambda function which has try catch.
+   
+## Closures in Lambda Expression
+   
+    public class ClosureExample{
+      public static void main(string[] args){
+        int a=0;
+        int b=0;
+        doProcess(a, i -> System.Out.println(i+b));
+      }
+      public static void doProcess(int i, Process p){
+        p.process(i);
+      }
+    }
+    
+    interface Process{
+      void process(int i);
+    }
