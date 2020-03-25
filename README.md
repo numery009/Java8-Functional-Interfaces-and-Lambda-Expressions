@@ -122,7 +122,7 @@
       public static void main(string[] args){
         int a=0;
         int b=0;
-        doProcess(a, i -> System.Out.println(i+b));
+        doProcess(a, i -> System.Out.println(i+b));  //Frozen value of b will go where the Lambda will go. This is closures.
       }
       public static void doProcess(int i, Process p){
         p.process(i);
