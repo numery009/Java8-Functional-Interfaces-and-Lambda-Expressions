@@ -100,3 +100,15 @@
 
 ## Functional Interface
    In Java8 we can implement method in the interface. If any method has only one abstract method that's call functional        interface. Functional Interface is a type of interface which we can use for Lambda Type. In Java8 we have special type of    marking which is functional interface. That is @FunctionalInterface annotation. @FunctionalInterface is completely          optional. Java compiler does not require it for your Lambda Types. But it is good practice to add it. It convey the          message that how this interface should be use.
+
+## Using Function Interface
+   Java.util.Function, which contains some out of box interface like Predicate<T> interface. Which has a method test(T).
+   Steps for Lambda -
+  
+   1st Step: Creating the lambda expression is create a interface for it. 
+   
+   2nd Step: Define a method on the interface. Which has a some signature for Lambda expression. 
+   
+   Note: If we find any interface in the package java.util.function which has the same method signature then we do not need    to write new interface we can use that.
+   
+   Predicate<T>, Consumer<T> these are the Function Interface out of the box.
