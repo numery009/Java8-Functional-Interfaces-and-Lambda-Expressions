@@ -35,4 +35,7 @@
      aBlockofCode=()-> {
                       System.Out.println("Hello World!");
                         }
+  We can assign the lambda expression to a variable. If the body of code is one line then we can remove the curly braces.
   
+     aBlockofCode=()-> System.Out.println("Hello World!");
+                        
