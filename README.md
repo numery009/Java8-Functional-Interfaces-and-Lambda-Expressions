@@ -140,10 +140,11 @@
 ## Method Reference
    If Lambda expression taking no input agrument and it's executing a method without parameter. So, Lambda expression is        doing method execution. In other case if there some input argument and it passing those parameter in the execution          method. If the parameter match then there is some obvious for it. It has different syntax like-method Reference.
    
-   ()-> method  --> ClassName::methodName
-   (p)-> methid(p) --> ClassName::methodName
+    ()-> method  --> ClassName::methodName
+    (p)-> methid(p) --> ClassName::methodName
 
 ## The Foreach Iteration
-   Java8 has introduce the internal iteration which is forEach() method
-      people.forEach(p -> system.out.println(p));
-      people.forEach(system.out::println);
+   
+    Java8 has introduce the internal iteration which is forEach() method
+       people.forEach(p -> system.out.println(p));
+       people.forEach(system.out::println);
