@@ -132,4 +132,7 @@
     interface Process{
       void process(int i);
     }
-Frozen value of b will go where the Lambda will go. This is called closures.
+    // Frozen value of b will go where the Lambda will go. This is called closures.
+    
+## "This" Reference in Lambda
+   "This" reference we cannot use inside the static method. If there is any anonymous inner class inside the static method then inside the annonymous inner class we can use this reference. This is the classic Java how to use "This" reference inside the static method. Now if we use the same senario for Java8 Lambda. We have static method, inside that there is a anonymous inner class. It will give an error if we use "This" reference. Because Lambda treat a different way the annonymous inner class. For Lambda "This" reference does not reffer the inner class object. It is same like the outside of Lambda. Lambda does not overwrite the "This" reference.
