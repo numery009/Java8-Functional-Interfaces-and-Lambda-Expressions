@@ -53,7 +53,7 @@
    
    ### Type Interface
       
-      Public static void mina(String[] args){
+      Public static void main(String[] args){
         printLambda(s-> s.length());
       }
       
