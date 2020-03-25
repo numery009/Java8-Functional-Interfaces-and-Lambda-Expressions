@@ -37,5 +37,12 @@
                         }
   We can assign the lambda expression to a variable. If the body of code is one line then we can remove the curly braces.
   
-     aBlockofCode=()-> System.Out.println("Hello World!");
-                        
+     1) aBlockofCode=()-> System.Out.println("Hello World!");
+     
+     
+     2) Double Number Function : (int a) -> a*2;
+     3) Add function : (int a, in b) -> a+b;
+     4) Safe Divide Function= (int a, int b) ->{
+                               if(b==0) return 0;
+                               return a/b;
+                              }  
