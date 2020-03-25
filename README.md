@@ -11,3 +11,15 @@
 
   1) Everything is an object.
   2) All code blocks are associated with classes and objects.
+
+## Function as Values in Lambda
+
+  Inline values -> 
+  
+  String name = "foo";
+  double pi = 3.14;
+  
+  aBlockofCode={
+    ......
+    ......
+  }
