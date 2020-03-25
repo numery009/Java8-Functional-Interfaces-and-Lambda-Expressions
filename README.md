@@ -35,6 +35,14 @@
         }
       </td>
    <tr>
+     <tr>
+      <td>
+         We are passing a class whihc has a method that has to perform.
+      </td>     
+      <td>
+        we are passing the action and execute it.
+      </td>
+   <tr>
 </table>
 
 ## Function as Values in Lambda
