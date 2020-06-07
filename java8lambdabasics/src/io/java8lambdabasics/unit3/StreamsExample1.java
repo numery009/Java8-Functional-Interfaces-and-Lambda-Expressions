@@ -23,7 +23,7 @@ public class StreamsExample1 {
 		System.out.println(total);
 		
 		
-		// Following are the sample of Stream API with Lambda Expression
+		// Following are the samples of Stream API with Lambda Expression
 		
 		// create a list of integers
 		List<Integer> number = Arrays.asList(2, 3, 4, 5);
